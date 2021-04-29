@@ -144,29 +144,48 @@ button:hover {
   cursor: pointer;
 }
 
-@media screen and (min-width: 400px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   h1 {
     font-size: 40px;
     letter-spacing: 10px;
     text-align: center;
   }
   p {
+    width: 75%;
+    margin: 0 auto;
     text-align: center;
     line-height: 25px;
     font-size: 15px;
   }
 
-  .logo {
-    width: 100px;
+  input {
+    margin-top: 2rem;
+    width: 50%;
+    margin-left: 25%;
   }
 
+  button {
+    right: 23%;
+    top: 2rem;
+  }
+
+  .logo {
+    width: 250px;
+    margin-left: 15%;
+  }
+  .inner-container {
+    max-width: 100%;
+    margin: 0;
+  }
   .bg-mobile {
+    margin: 0;
     display: block;
     width: 100%;
   }
 
   .left {
     width: 100%;
+    padding: 0;
   }
 
   .right-bg {
@@ -187,13 +206,23 @@ button:hover {
   }
 
   .logo {
-    width: 100px;
+    width: 150px;
+  }
+
+  input {
+    width: 70%;
+    margin-left: 12%;
   }
 
   .bg-mobile {
     display: block;
     width: calc(100%+80px);
-    margin-left: -40px;
+    margin-left: 0;
+  }
+
+  button {
+    right: 12%;
+    top: 2rem;
   }
 
   .left {
